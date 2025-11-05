@@ -1,4 +1,4 @@
-# 📊 Retail Sales Performance Dashboard
+# 📊 Sales Performance Dashboard
 
 ## 🧠 Project Overview
 This **Retail Sales Performance Dashboard** provides a comprehensive analysis of sales, profit, and customer behavior across multiple states and product categories.  
