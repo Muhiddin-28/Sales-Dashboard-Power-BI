@@ -51,18 +51,19 @@ To evaluate retail business performance by analyzing:
 ## 🧮 DAX Calculations (Used in Dashboard)
 ```DAX
 -- Profit Margin %
-Profit Margin % = DIVIDE(SUM(Data[Profit]), SUM(Data[Sales]))
+Profit Margin % = DIVIDE ( [Total Profit], [Total Sales] )
 
 -- Average Order Value (AOV)
-AOV = DIVIDE(SUM(Data[Sales]), COUNT(Data[Orders]))
+AOV = DIVIDE ( [Total Sales], [Orders] )
 
 -- YoY Growth %
-YoY Growth % =
-VAR CurrentYear = YEAR(MAX(Data[Order Date]))
-VAR PrevYearSales =
-    CALCULATE(SUM(Data[Sales]), FILTER(Data, YEAR(Data[Order Date]) = CurrentYear - 1))
-RETURN
-DIVIDE(SUM(Data[Sales]) - PrevYearSales, PrevYearSales)
+YoY Growth % = DIVIDE([Total Sales] - [Sales YoY], [Sales YoY])
+
+--- Total Profit
+Total Profit = SUM(Data[Profit])
+
+--- Total Sales
+Total Sales = SUM('Data'[Sales])
 ```
 
 ---
