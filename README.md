@@ -94,7 +94,7 @@ This analysis helps stakeholders to:
 ---
 
 ## 📸 Dashboard Preview
-![Retail Dashboard](./Image/o.mp)
+![Retail Dashboard](./Image/o.gif)
 
 ---
 
