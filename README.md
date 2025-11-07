@@ -1,7 +1,7 @@
-# 📊 Sales Performance Dashboard
+# 📊 Retail Sales Performance Dashboard
 
 ## 🧠 Project Overview
-This **Retail Sales Performance Dashboard** provides a comprehensive analysis of sales, profit, and customer behavior across multiple states and product categories.  
+This ** Ratail Sales Performance Dashboard** provides a comprehensive analysis of sales, profit, and customer behavior across multiple states and product categories.  
 Built with **Power BI**, the dashboard enables interactive data exploration and performance tracking over time to support strategic business decisions.
 
 ---
