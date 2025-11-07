@@ -85,28 +85,40 @@ This analysis helps stakeholders to:
 
 ---
 
-## 🛠️ Tools & Technologies
-- **Power BI** – Dashboard creation & data visualization  
-- **DAX** – Calculations for KPIs and growth metrics  
-- **Excel / SQL (optional)** – Data source preparation  
-- **GitHub** – Project documentation and version control  
-
----
-
 ## 📸 Dashboard Preview
 ![Retail Dashboard](./Image/o.gif)
 
 ---
 
-## 🚀 Future Improvements
-- Add **Forecasting visuals** to project upcoming sales.  
-- Integrate **Customer segmentation (High / Mid / Low Value)**.  
-- Build **Drill-through pages** for detailed product or region analysis.  
-- Automate refresh via Power BI Service + scheduled updates.
+## 🧭 How To Use
+- Follow these steps to explore and interact with the **Sales Analysis Power BI Dashboard**:
+
+1. Open Data folder.
+
+- Open the file SALES ANALYSIS BI.pbix in Power BI Desktop.
+
+2. Load the data
+
+- Make sure Sales and Profit Data.xlsx is in the same directory.
+
+- If the file path changes, go to Home → Transform Data → Data Source Settings and relink the Excel file.
+
+3. Explore the dashboard
+
+- Interact with visuals, slicers, and filters to analyze sales performance, profitability, and regional trends.
+
+4.  Switch between report pages for detailed views such as:
+
+- Yearly Sales Overview
+
+- Product & Category Analysis
+
+- Regional Performance
+
+- Profit Margin Insights
 
 ---
 
 ## 👨‍💻 Author
 **Muhiddin Axmadov**  
 📍 Data Analyst | Power BI Developer | Business Insights Enthusiast  
-🔗 [LinkedIn Profile]() · [Portfolio Website]()  
